@@ -1,1 +1,101 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* FONDO  */
+.register-photo {
+  background: linear-gradient(rgb(0, 217, 255), rgb(51, 0, 255));
+  height: 650px;
+  padding: 80px 0;
+}
+
+s.register-photo .image-holder {
+  display: table-cell;
+  background: url("") space, #ffffff;
+  background-size: auto, auto;
+  text-align: right;
+  width: 484px;
+}
+
+/* ALINEACION DEL FONDO BLANCO */
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* SOBRE FONDO BLANCO */
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #000001;
+}
+
+@media (max-width: 991px) {
+  .register-photo form {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  background: #f4476b;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-registrar:hover,
+.register-photo form .btn-registrar:active {
+  background: #c5a411;
+}
+
+/* define un estilo para el estado "active" (cuando se está presionando el boton) */
+.register-photo form .btn-registrar:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  /* significa que el tamaño de la fuente será de 12 píxeles. */
+  color: #6f7a85;
+  opacity: 0.9;
+  /* ==> Significa que la opacidad del elemento será del 90% */
+  text-decoration: none;
+  /* ==> Significa que no habrá decoración en el texto */
+}
+
+.register-photo form .btn-registrar {
+  background: linear-gradient(-120deg, rgb(230, 145, 201), rgb(5, 0, 255));
+}

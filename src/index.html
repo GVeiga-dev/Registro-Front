@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Registro de Usuario</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -11,19 +11,107 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <section class="register-photo">
+      <div class="form-container">
+        <form method="post">
+          <h2 class="text-center">
+            <strong>REGISTRO DE USUARIO</strong><br />
+          </h2>
+
+          <!-- DIV DE USUARIO Y CORREO ELECTRONICO -->
+          <div class="form-group">
+            <input
+              class="form-control mb-3"
+              type="text"
+              name="Username"
+              placeholder="Usuario"
+            />
+            <input
+              class="form-control mb-3"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+
+          <!-- DIV DE CONTRASEÑA Y CONFIRMAR CONTRASEÑA -->
+          <div class="form-group">
+            <input
+              class="form-control mb-3"
+              type="password"
+              name="password"
+              placeholder="Contraseña"
+            />
+            <input
+              class="form-control"
+              type="password"
+              name="password"
+              placeholder="Confirmar Contraseña"
+            />
+          </div>
+
+          <!-- DIV DE CONFIRMAR LOS TERMINOS DE LICENCIA -->
+          <div class="form-group">
+            <div class="form-check">
+              <label class="form-check-label"
+                ><input class="form-check-input" type="checkbox" /> Estoy de
+                acuerdo con los terminos y condiciones.</label
+              >
+            </div>
+          </div>
+
+          <!-- DIV DE BOTONES   -->
+          <div class="form-group">
+            <button
+              class="btn btn-registrar btn-block mb-3 col-12"
+              type="submit"
+            >
+              Registrarse
+            </button>
+          </div>
+
+          <!-- TESTING -->
+
+          <!-- Boton de registro con google -->
+          <div class="form-group">
+            <button
+              class="btn btn-registrar btn-block mb-3 col-12"
+              type="submit"
+            >
+              Registrarse con Google
+            </button>
+          </div>
+
+          <a class="already" href="# poner redireccion"
+            >Ya tienes una cuenta? Logueate aqui.</a
+          >
+        </form>
       </div>
-    </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      $(document).ready(function() {
+        AOS.init();
+      });
+    </script>
   </body>
 </html>
