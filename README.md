@@ -1,3 +1,10 @@
+![image](https://user-images.githubusercontent.com/120050904/217218648-1f0c1150-6375-41b4-be23-6b49b1a40439.png)
+
+
+
+
+
+
 # Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
@@ -50,3 +57,6 @@ $ npm run deploy
 ```
 
 Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
+
+
+
